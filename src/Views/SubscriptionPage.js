@@ -27,7 +27,6 @@ export default function SubscriptionPage() {
     }
   };
 
-
   const api = useMemo(() => {
     const instance = axios.create({ baseURL: API_BASE });
 
